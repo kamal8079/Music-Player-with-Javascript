@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@1,900&family=Roboto:ital,wght@0,100;0,400;0,900;1,100;1,500&display=swap');
+body{
+    background: url('background/bg3.jpg') no-repeat center center/cover;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+nav{
+    font-family: 'Kanit', sans-serif;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 70px;
+    background-color: black;
+    color: white;
+}
+
+nav ul li{
+    padding: 0px 35px;
+    font-size: 1.2rem;
+}
+
+.brand img{
+    width: 99px;
+}
+
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.5rem;
+    padding-left: 0%;
+}
+
+.container{
+    min-height: 56vh;
+    background: url('background/bg.jpg') no-repeat center center/cover;
+    color: white;
+    font-family: 'Kanit', sans-serif;
+    display: flex;
+    margin: 23px auto;
+    width: 60%;
+    border-radius: 22px;
+    padding: 34px;
+}
+
+.bottom{
+    position: sticky;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 130px;
+    background: black;
+    opacity: 0.8;
+    color: white;
+    bottom: 0;
+    flex-direction: column;
+}
+
+.icons{
+    margin: 14px 0px;
+}
+
+.icons i{
+    margin: 0px 10px;
+    cursor: pointer;
+}
+
+#myProgressBar{
+    width: 110vh;
+    cursor: pointer;
+}
+
+.songItemConatainer{
+    margin-top: 44px;
+    height: 43vh;
+    overflow-y: scroll;
+}
+
+.songItem{
+    height: 40px;
+    display: flex;
+    width: 70%;
+    margin: 12px 0px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(104, 109, 7);
+    color: rgb(5, 2, 15);
+    border-radius: 32px;
+}
+
+.songItem img{
+    height: 30px;
+    width: 30px;
+    border-radius: 34px;
+    margin-left: 10px;
+}
+
+.timeStamp i{
+    margin: 0 12px;
+    cursor: pointer;
+}
+
+.songInfo{
+    position: absolute;
+    left: 25vw;
+    font-family: 'Kanit', sans-serif;
+}
+
+.songInfo img{
+    opacity: 0;
+    transition: opacity 0.4s ease-in;
+    margin-right: 15px;
+}
